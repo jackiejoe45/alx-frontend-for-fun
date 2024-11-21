@@ -1,0 +1,13 @@
+$infofontsize: 12px;
+$successcolor: #00FF00;
+$warningcolor: #FF0000;
+
+.info{
+    font-size: $infofontsize;
+    &.success{
+        color: $successcolor;
+    }
+    &.warning{
+        color: $warningcolor;
+    }
+}

@@ -1,0 +1,13 @@
+$bodyfont: 14px;
+$h1font: 16px;
+$classfont: 12px;
+
+body {
+  font-size: $bodyfont;
+  h1 {
+    font-size: $h1font;
+    .class {
+      font-size: $classfont;
+    }
+  }
+}

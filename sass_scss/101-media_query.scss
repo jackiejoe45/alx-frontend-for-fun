@@ -1,0 +1,9 @@
+$font-size: 20px;
+$h1font: 14px;
+
+h1 {
+    font-size: $font-size;
+    @media screen and (max-width: 320px){
+        font-size: $h1font;
+    }
+}

@@ -1,0 +1,21 @@
+$font-size: 20px;
+$font-size-960: 18px;
+$font-size-640: 16px;
+$font-size-320: 14px;
+$color: #1D1D1D;
+
+h1 {
+    font-size: $font-size;
+    @media screen and (max-width: 960px){
+        font-size: $font-size-960;
+    }
+    @media screen and (max-width: 640px){
+        font-size: $font-size-640;
+    }
+    @media screen and (max-width: 320px){
+        font-size: $font-size-320;
+        .small{
+            color: $color;
+        }
+    }
+}
